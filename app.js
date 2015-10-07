@@ -10,7 +10,7 @@ var app = express();
 var GOOGLE_CLIENT_ID = "-=GOOGLE_CLIENT_ID=-";
 var GOOGLE_CLIENT_SECRET = "-=GOOGLE_CLIENT_SECRET=-";
 
-mongoose.connect('mongodb://localhost/Study');
+mongoose.connect('mongodb://localhost/Users');
 var User = mongoose.model('User', {
   google_id: String,
   name: String,
